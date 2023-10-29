@@ -1,0 +1,36 @@
+/* Reset default list styles for the menu */
+.menu ul {
+    list-style: none;
+    margin: 0;
+    background-color: #E9F5E3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Style for each menu item */
+.menu a {
+    text-decoration: none;
+    font-size: 19px;
+    display: block;
+    padding: 10px;
+    border: 5px solid #006633; /* Add border for a button-like appearance */
+    border-style: inset;
+    margin: 5px;
+}
+
+/* Hover effect for menu items */
+.menu a:hover {
+    background-color: #90EE90;
+    color: #000000;
+    font-weight: bold;
+}
+
+/* Style for the current page */
+.menu a.is-current {
+    background-color: #DBF6CF; /* Different background color for the current page */
+    color: #000000;
+    font-weight: bold;
+    border-color: #006633; /* Adjust the border color for the current page */
+}
+
